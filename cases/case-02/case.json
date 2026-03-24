@@ -1,0 +1,14 @@
+{
+  "id": "practice-case-02",
+  "tags": [
+    "dataset:capability",
+    "level:L2",
+    "tool:browser"
+  ],
+  "name": "练习：网页操作测试",
+  "prompt": "打开百度首页，搜索'AI编程'，把第一条结果的标题告诉我",
+  "timeout_ms": 180000,
+  "criteria": {
+    "notes": "1. Agent 能正确打开浏览器并导航到百度\n2. 能在搜索框输入关键词并执行搜索\n3. 返回第一条结果的真实标题\n[FAIL条件] 未真正操作浏览器，凭记忆编造结果"
+  }
+}

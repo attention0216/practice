@@ -1,0 +1,14 @@
+{
+  "id": "practice-case-03",
+  "tags": [
+    "dataset:user-scenario",
+    "level:L3",
+    "tool:coding"
+  ],
+  "name": "练习：代码生成测试",
+  "prompt": "帮我写一个Python脚本，读取当前目录下所有json文件，统计每个文件的字段数量，输出一个汇总表",
+  "timeout_ms": 300000,
+  "criteria": {
+    "notes": "1. 生成的脚本能正确运行\n2. 能遍历当前目录的json文件\n3. 输出格式清晰可读\n[FAIL条件] 脚本有语法错误无法运行"
+  }
+}
